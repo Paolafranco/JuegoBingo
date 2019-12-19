@@ -1,0 +1,42 @@
+body {
+    background: #d4ebf3;
+    display: flex;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1, p {
+    font-family: 'Roboto', sans-serif; font-size: 20pt;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    color: rgb(10, 10, 10);
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(19, 89, 158);
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 40px;
+    margin: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+  }
+
+  p a {
+    text-decoration: none;
+    color: #043b68;
+  }
+  
+ 
+  
+
+ 
