@@ -55,3 +55,6 @@ function jugar(){
 function generarNumero(min, max) {
     return Math.round(Math.random() * (max - min) + min);
 }
+function mostrarNum(){
+    document.getElementById("mostrar").style.display="block";
+}
